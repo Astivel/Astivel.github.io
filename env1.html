@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reserva Eldritch</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="env1">
+
+    <h1>Reserva en el Hotel Eldritch</h1>
+
+    <audio autoplay loop>
+        <source src="dramatic1.mp3" type="audio/MP3">
+        Tu navegador no soporta audio MP3.
+      </audio>
+
+  <div class="env1">
+    <h2>Completa el formulario de reserva</h2>
+    <form>
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre"><br>
+      
+      <label for="apellidos">Apellidos:</label><br>
+      <input type="text" id="apellidos" name="apellidos"><br>
+      
+      <label for="dni">DNI:</label><br>
+      <input type="text" id="dni" name="dni"><br>
+      
+      <label for="fecha">Fecha de entrada:</label><br>
+      <input type="date" id="fecha" name="fecha"><br>
+      
+      <label for="dias">Días de estancia:</label><br>
+      <input type="number" id="dias" name="dias"><br>
+      
+      <label for="telefono">Teléfono:</label><br>
+      <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}"><br>
+      
+      <label for="direccion">Dirección:</label><br>
+      <textarea id="direccion" name="direccion"></textarea><br>
+      
+      <label for="correo">Correo electrónico:</label><br>
+      <input type="email" id="correo" name="correo"><br>
+      
+      <label for="observaciones">Observaciones:</label><br>
+      <textarea id="observaciones" name="observaciones"></textarea><br><br>
+      
+      <button type="submit" onclick="alert ('La reserva está hecha, ¡se lo va a pasar de miedo! ¡Mua ha ha!')">Reservar</button>
+    </form>
+    
+  </div>
+  <a href="index.html" id="Volver">Volver a la página principal</a> <!-- Enlace a la página principal -->
+  
+  <div id="copyright1">
+    <p>&copy; 2023 Hotel Eldritch - Todos los derechos reservados</p>
+  </div>
+
+
+
+</body>
+</html>

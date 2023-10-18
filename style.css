@@ -1,0 +1,264 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #header {
+    font-family: 'Creepster', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+  }
+  
+  #content {
+    padding: 20px;
+    text-align: center;
+    color: #15fd00;
+    background-color: rgba(78, 78, 78, 0.39);
+  }
+  
+  #content h2 {
+    font-size: 24px;
+  }
+  
+  #content p {
+    font-size: 18px;
+  }
+  
+  #content a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: rgb(184, 0, 144);
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  #content a:hover {
+    background-color: #e64900;
+  }
+  
+  #copyright {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #copyright p {
+    margin: 0;
+  }
+/* ... Estilos anteriores ... */
+
+/* Estilos específicos para la página de reserva (env1.html) */
+body.env1 {
+    background-image: url('fondo_reserva2.jpg'); /* Reemplaza con la ruta correcta */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  h1 {
+    font-family: 'Creepster', cursive; /* fuentre creepye xd*/
+    color: rgb(255, 0, 0); 
+    font-size: 48px; 
+  }
+ 
+  
+  .env1 {
+    text-align: center;
+    padding: 50px;
+    margin: 50px auto;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+  }
+  
+  .env1 h2 {
+    font-size: 24px;
+    color: #ff6600;
+  }
+  
+  .env1 label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .env1 input,
+  .env1 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .env1 button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .env1 button:hover {
+    background-color: #e64900;
+  }
+  #Volver {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  #Volver:hover {
+    background-color: #e64900;
+  }
+  #copyright1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 20px auto;
+    background-color: #11111163;
+  }
+
+  
+  /* ... Estilos anteriores ... */
+    /* Estilos para la página 3 (env2.html) */
+    body#env2 {
+        background-image: url('hotel_embrujado2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      
+      body#env2 #header {
+        font-family: 'Creepster', cursive;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        color: rgb(255, 0, 0);
+        text-align: center;
+      }
+      
+      body#env2 #lore {
+        padding: 20px;
+        text-align: center;
+        color: #12a505;
+        font-family: 'Creepster', cursive;; /* Agregamos una fuente terrorífica */
+        background-color: rgba(0, 0, 0, 0.5); /* Añadimos un fondo al área de lore */
+        border-radius: 10px; /* Redondeamos las esquinas */
+      }
+      
+      body#env2 #lore h2 {
+        font-size: 24px;
+      }
+      
+      body#env2 #lore p {
+        font-size: 18px;
+      }
+      
+      body#env2 #volver2 {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ff6600;
+        color: rgb(184, 0, 144);
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+      }
+      
+      body#env2 #volver2:hover {
+        background-color: #e64900;
+      }
+      
+      body#env2 #copyright2 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin: 20px auto;
+        background-color: #11111163;
+      }
+    
+      /* ... Estilos anteriores ... */
+    /* Estilos para la página 4 (env3.html) */
+    body#env3 {
+        background-image: url('fondo_creepy.jpg'); /* Reemplaza con la ruta correcta */
+        background-size: 240px;
+        background-repeat: repeat;
+    }
+    
+    body#env3 #header {
+        font-family: 'Creepster', cursive;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        color: rgb(255, 0, 0);
+        text-align: center;
+    }
+    
+    body#env3 #activities {
+        padding: 20px;
+        text-align: center;
+        color: #12a505;
+        font-family: 'Chiller', cursive; /* Cambia a la fuente */
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        margin: 50px auto;
+        max-width: 500px;
+    }
+    
+    body#env3 #activities p {
+        font-size: 24px;
+    }
+    
+    body#env3 #activities ul {
+        text-align: center;
+        list-style-type: none;
+        padding: 0;
+        background-color: rgba(112, 0, 0, 0.8); /* Fondo transparente */
+    border-radius: 10px; /* Esquina redondeada */
+    padding: 10px; /* Espaciado interno */
+    }
+    
+    body#env3 #activities li {
+        text-align: center;
+        margin: 10px 0;
+        font-size: 30px;
+    }
+    
+    body#env3 #volver3 {
+        display: block;
+        width: fit-content;
+        margin: 20px auto;
+        padding: 10px 15px;
+        background-color: #ff6600;
+        color: rgb(184, 0, 144);
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    body#env3 #volver3:hover {
+        background-color: #e64900;
+    }
+    
+    body#env3 #copyright3 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin: 20px auto;
+        background-color: #11111163;
+      }
+    
